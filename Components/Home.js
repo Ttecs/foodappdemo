@@ -63,7 +63,7 @@ function HomeScreen() {
 
       {/* catagories */}
       <View style={styles.catagorieswrapper}>
-        <Text style={styles.catagoriestext}>Catagories</Text>
+        <Text style={styles.catagoriestext}>Catagories  </Text>
         <View style={styles.Flatlist}>
           <FlatList
             data={catagoriesdata}
@@ -72,10 +72,10 @@ function HomeScreen() {
             horizontal={true}
           />
         </View>
-      </View>
+      </View>  
       {/* cards */}
     <View style={styles.cardwrapper}>
-      <Text  style={styles.cardtitle}>Popular</Text>
+      <Text  style={styles.cardtitle}>Popular       </Text>
       {populardata.map((item)=>(
         <View style={[styles.actualcard,{marginTop:item.id? 10:20,}]}>
           <View> 
